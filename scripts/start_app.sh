@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["54.144.250.113"]/' /home/ubuntu/chatapp-backend/backend/settings.py
+sed -i 's/\[]/\["3.110.151.141"]/' /home/ubuntu/chatapp-backend/backend/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
